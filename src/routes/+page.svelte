@@ -1,5 +1,5 @@
 <script>
-	import '../tailwind.css';
+  import "../tailwind.css";
 </script>
 
 <h1 class="bg-slate-500">Welcome to SvelteKit</h1>
