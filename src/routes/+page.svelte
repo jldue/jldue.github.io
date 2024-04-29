@@ -116,7 +116,10 @@
     </div>
   </main>
   <footer class="flex flex-row content-center justify-between bg-gray-100 h-16 px-6">
-    <p class="self-center text-center text-sm text-gray-800">Copyright © 2024 Jean-Luc Düe</p>
+    <div class="flex flex-col content-center justify-center">
+      <p class="self-start text-center text-sm text-gray-800">+47 455 07 954</p>
+      <a class="self-start text-center text-sm text-gray-800 underline" href="mailto:contact@jlduee.com">contact@jlduee.com</a>
+    </div>
     <button type="button" class="flex flex-col content-center justify-center self-center w-9 h-9 border border-gray-800">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="self-center w-7 h-7">
         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 18.75 7.5-7.5 7.5 7.5" />
