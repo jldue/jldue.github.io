@@ -14,6 +14,20 @@
   <main>
     <img src="profile.jpg" alt="Profile"/>
     <div class="flex flex-col content-center justify-start p-6 gap-6 bg-[url(circuit-board.svg)] bg-center">
+      <div class="flex flex-row content-center items-center justify-center gap-6">
+        <a href="https://www.linkedin.com/in/jean-luc-d%C3%BCe-82a324206/">
+          <img src="linkedin.png" alt="LinkedIn" width="50"/>
+        </a>
+        <a href="https://www.upwork.com/freelancers/~01f0051e41f2b39820/">
+          <img src="upwork.png" alt="Upwork" width="50"/>
+        </a>
+        <a href="https://www.fiverr.com/jl_duee/">
+          <img src="fiverr.png" alt="Fiverr" width="50"/>
+        </a>
+        <a href="https://github.com/jl-duee/">
+          <img src="github.png" alt="GitHub" width="50"/>
+        </a>
+      </div>
       <h2 class="text-2xl font-bold text-gray-100 self-center text-center">My Goals</h2>
       <ul class="text-gray-100 list-disc pl-5 pr-2">
         <li>A leadership position in a bigger company.</li>
@@ -99,15 +113,6 @@
       <p class="text-gray-100 text-justify">As a little kid I was already interested in computers. When my father got himself a brand new Windows XP machine I got his Windows 98 machine. But before I was allowed to use it, he gave me a box of diskettes (it must have been around 50 diskettes) so I can delete everything and install Windows from scratch. It was a nightmare but also fun.</p>
       <p class="text-gray-100 text-justify">Fast forwarding to university I loved programming with other students and my favorite “subject” at university was a project in groups to actually create a minimal version of an online shop as a web application. This was one of the few things at university where we actually needed to get something to the final stage of product development otherwise we would fail the class. I also embraced all theoretical subjects as I understood that it may be crucial for solving future problems but I liked most getting products developed from 0 to 100 and the end product being of actual use to others.</p>
       <p class="text-gray-100 text-justify">With a lot of experience I acquired from my two recent full time jobs but also knowledge I gained myself due to self driven learning, I would like to go forward with my career by seeking for technical leadership positions but also be open for single projects to be hired for as a self driven contractor.</p>
-      <h2 class="text-2xl font-bold text-gray-100 self-center text-center">My Socials</h2>
-      <div class="flex flex-row content-center items-center justify-center gap-6">
-        <a href="https://www.linkedin.com/">
-          <img src="linkedin.png" alt="LinkedIn" width="50"/>
-        </a>
-        <a href="https://www.github.com/">
-          <img src="github.png" alt="GitHub" width="50"/>
-        </a>
-      </div>
     </div>
   </main>
   <footer class="flex flex-row content-center justify-between bg-gray-100 h-16 px-6">
