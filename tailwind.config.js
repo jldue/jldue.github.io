@@ -8,5 +8,7 @@ export default {
       "sans": ["JetBrains Mono"]
     }
   },
-  plugins: []
+  plugins: [
+    require("tailwindcss-animated")
+  ]
 };
