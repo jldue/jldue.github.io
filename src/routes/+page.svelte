@@ -71,34 +71,45 @@
 
   let isMenuVisible = false;
 
-  function toggleMenu() {
-    isMenuVisible = !isMenuVisible;
+  function openMenu() {
+    isMenuVisible = true;
+  }
+
+  function closeMenu() {
+    isMenuVisible = false;
   }
 </script>
 
-<div class="bg-gray-800 overflow-hidden">
+<div class="bg-gray-800 overflow-x-hidden">
   
   <header class="fixed top-0 w-screen h-16 flex flex-row content-center justify-between bg-gray-100 px-6">
     <h1 class="text-3xl font-bold text-gray-800 self-center text-center">{ NAME }</h1>
-    <button type="menu" on:click={toggleMenu} class="flex flex-col content-center justify-center self-center w-9 h-9 border border-gray-800">
+    <button type="menu" on:click={ openMenu } class="flex lg:hidden flex-col content-center justify-center self-center w-9 h-9 border border-gray-800">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1f2937" class="self-center w-7 h-7">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
       </svg>
     </button>
+    <div class="hidden lg:flex flex-row content-center justify-between self-center gap-8">
+      <a href="#goals" class="text-lg font-bold text-gray-800 underline">Goals</a>
+      <a href="#skills" class="text-lg font-bold text-gray-800 underline">Skills</a>
+      <a href="#employments" class="text-lg font-bold text-gray-800 underline">Employments</a>
+      <a href="#education" class="text-lg font-bold text-gray-800 underline">Education</a>
+      <a href="#story" class="text-lg font-bold text-gray-800 underline">Story</a>
+    </div>
   </header>
 
   {#if isMenuVisible}
   <div class="fixed end-0 h-screen flex flex-col content-center justify-start w-56 p-8 gap-10 border-l-2 border-gray-800 bg-gray-100 bg-[url(circuit-board_light.svg)] bg-center animate-fade-left animate-ease-in-out animate-duration-500">
-    <button type="menu" on:click={toggleMenu} class="flex flex-col content-center justify-center self-end w-9 h-9 border border-gray-800">
+    <button type="menu" on:click={ closeMenu } class="flex flex-col content-center justify-center self-end w-9 h-9 border border-gray-800">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="self-center w-7 h-7">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>      
     </button>
-    <a href="#goals" on:click={toggleMenu} class="text-lg font-bold text-gray-800 underline">Goals</a>
-    <a href="#skills" on:click={toggleMenu} class="text-lg font-bold text-gray-800 underline">Skills</a>
-    <a href="#employments" on:click={toggleMenu} class="text-lg font-bold text-gray-800 underline">Employments</a>
-    <a href="#education" on:click={toggleMenu} class="text-lg font-bold text-gray-800 underline">Education</a>
-    <a href="#story" on:click={toggleMenu} class="text-lg font-bold text-gray-800 underline">Story</a>
+    <a href="#goals" on:click={ closeMenu } class="text-lg font-bold text-gray-800 underline">Goals</a>
+    <a href="#skills" on:click={ closeMenu } class="text-lg font-bold text-gray-800 underline">Skills</a>
+    <a href="#employments" on:click={ closeMenu } class="text-lg font-bold text-gray-800 underline">Employments</a>
+    <a href="#education" on:click={ closeMenu } class="text-lg font-bold text-gray-800 underline">Education</a>
+    <a href="#story" on:click={ closeMenu } class="text-lg font-bold text-gray-800 underline">Story</a>
     <div class="flex flex-1 flex-col content-center justify-center">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5" stroke="#1f2937" class="self-center w-32 h-32">
         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z" />
