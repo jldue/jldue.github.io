@@ -80,7 +80,7 @@
   }
 </script>
 
-<div class="bg-gray-800 overflow-x-hidden">
+<div class="bg-gray-800 bg-[url(circuit-board_dark.svg)] bg-center overflow-x-hidden">
   
   <header class="fixed top-0 w-screen h-16 flex flex-row content-center justify-between bg-gray-100 px-6">
     <h1 class="text-3xl font-bold text-gray-800 self-center text-center">{ NAME }</h1>
@@ -90,11 +90,11 @@
       </svg>
     </button>
     <div class="hidden lg:flex flex-row content-center justify-between self-center gap-8">
-      <a href="#goals" class="text-lg font-bold text-gray-800 underline">Goals</a>
-      <a href="#skills" class="text-lg font-bold text-gray-800 underline">Skills</a>
-      <a href="#employments" class="text-lg font-bold text-gray-800 underline">Employments</a>
-      <a href="#education" class="text-lg font-bold text-gray-800 underline">Education</a>
-      <a href="#story" class="text-lg font-bold text-gray-800 underline">Story</a>
+      <a href="#goals" class="text-lg font-bold text-gray-800 hover:underline">Goals</a>
+      <a href="#skills" class="text-lg font-bold text-gray-800 hover:underline">Skills</a>
+      <a href="#employments" class="text-lg font-bold text-gray-800 hover:underline">Employments</a>
+      <a href="#education" class="text-lg font-bold text-gray-800 hover:underline">Education</a>
+      <a href="#story" class="text-lg font-bold text-gray-800 hover:underline">Story</a>
     </div>
   </header>
 
@@ -118,9 +118,15 @@
   </div>
   {/if}
 
-  <main id="main" class="pt-20 mt-[-1rem]">
+  <main id="main" class="pt-20 mt-[-1rem] hidden lg:block">
     <img src="profile.jpg" alt="Profile"/>
-    <div class="flex flex-col content-center justify-start p-6 gap-6 bg-[url(circuit-board_dark.svg)] bg-center">
+    <div class="flex flex-col content-center justify-start p-6 gap-6">
+    </div>
+  </main>
+
+  <main id="main" class="pt-20 mt-[-1rem] lg:hidden">
+    <img src="profile.jpg" alt="Profile"/>
+    <div class="flex flex-col content-center justify-start p-6 gap-6">
       
       <div class="flex flex-row content-center items-center justify-center gap-6">
         <a href="https://www.linkedin.com/in/jean-luc-d%C3%BCe-82a324206/" target="_blank">
