@@ -3,7 +3,7 @@
 
   const NAME = "Jean-Luc Düe";
   const PHONE_NUMBER = "+47 455 07 954";
-  const EMAIL_ADDRESS = "contact@jlduee.com";
+  const EMAIL_ADDRESS = "contact@jldue.com";
 
   const GOALS = [
     "A leadership position in a bigger company.",
