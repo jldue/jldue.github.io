@@ -5,10 +5,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      "sans": ["JetBrains Mono"]
+      sans: ["JetBrains Mono"]
     }
   },
-  plugins: [
-    require("tailwindcss-animated")
-  ]
+  plugins: [require("tailwindcss-animated")]
 };

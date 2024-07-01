@@ -7,10 +7,10 @@ const config = {
   kit: {
     adapter: adapter({
       pages: "docs",
-			assets: "docs",
-			fallback: undefined,
-			precompress: false,
-			strict: true
+      assets: "docs",
+      fallback: undefined,
+      precompress: false,
+      strict: true
     }),
     paths: {
       base: process.env.NODE_ENV === "production" ? "/jldue.github.io" : ""
