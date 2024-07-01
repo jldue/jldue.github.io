@@ -1,1 +1,1 @@
-Website for my profile page (jldue.com)
+GitHub page for my profile. (https://jldue.github.io/)
