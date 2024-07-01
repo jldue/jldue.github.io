@@ -1,8 +1,8 @@
 {
   "name": "jldue.github.io",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
-  "homepage": ".",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
