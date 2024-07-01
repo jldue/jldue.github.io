@@ -80,7 +80,7 @@
   }
 </script>
 
-<div class="bg-gray-800 bg-[url(circuit-board_dark.svg)] bg-center overflow-x-hidden">
+<div class="bg-gray-800 bg-[url(/circuit-board_dark.svg)] bg-center overflow-x-hidden">
   
   <header class="fixed top-0 w-screen h-16 flex flex-row content-center justify-between bg-gray-100 px-6">
     <h1 class="text-3xl font-bold text-gray-800 self-center text-center">{ NAME }</h1>
@@ -99,7 +99,7 @@
   </header>
 
   {#if isMenuVisible}
-  <div class="fixed end-0 h-screen flex flex-col content-center justify-start w-56 p-8 gap-10 border-l-2 border-gray-800 bg-gray-100 bg-[url(circuit-board_light.svg)] bg-center animate-fade-left animate-ease-in-out animate-duration-500">
+  <div class="fixed end-0 h-screen flex flex-col content-center justify-start w-56 p-8 gap-10 border-l-2 border-gray-800 bg-gray-100 bg-[url(/circuit-board_light.svg)] bg-center animate-fade-left animate-ease-in-out animate-duration-500">
     <button type="menu" on:click={ closeMenu } class="flex flex-col content-center justify-center self-end w-9 h-9 border border-gray-800">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="self-center w-7 h-7">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
