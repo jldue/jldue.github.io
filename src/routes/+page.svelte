@@ -6,8 +6,8 @@
   const EMAIL_ADDRESS = "jl.duee@googlemail.com";
 
   const GOALS = [
-    "A leadership position in a bigger company.",
-    "Working as a contractor to develop apps, systems and websites for you as someone that has a good business idea or a business that needs to be digitally enhanced."
+    "Secure a technical leadership position within an organization to drive impactful projects and deliver measurable results.",
+    "Offer my expertise as a contractor to develop high-quality apps, systems, and websites for individuals with innovative business ideas or companies seeking digital transformation."
   ];
 
   const TECHNOLOGY_SKILLS = new Map([
@@ -23,12 +23,10 @@
 
   const PROGRAMMING_LANGUAGES = [
     "Java & Kotlin",
-    "Swift",
     "C / C++",
     "C#",
-    "SQL",
-    "HTML & CSS",
     "JavaScript & TypeScript",
+    "Swift",
     "Dart",
     "Python"
   ];
@@ -40,10 +38,10 @@
   ];
 
   const SOFT_SKILLS = [
-    "Leading a team/project to success",
-    "Working in teams",
-    "Quick adaption to new technologies",
-    "Entrepreneur mindset (I get it done)"
+    "Successfully leading teams and projects to achieve their goals.",
+    "Collaborating effectively within diverse teams.",
+    "Quickly adapting to new technologies.",
+    "Demonstrating an entrepreneurial mindset with a strong focus on execution and results."
   ];
 
   const EMPLOYMENTS = new Map([
@@ -52,15 +50,15 @@
       {
         FIRST: "First Software Engineer",
         LATER: "Later Software Architect",
-        TEXT: "I worked for the Live Data team that was responsible for processing live events happening at different matches in different kind of sports. Those events were later used in betting products and were important to be delivered with latencies as low as 500ms around the globe. I worked hard and therefore later got a position as the main technical lead architect of this department. My job as the main technical lead architect was to safely transition the existing backend applications to AWS Cloud and to lead a new group of Software Engineers based in Warsaw to build our new Frontend application with modern web technologies."
+        TEXT: "I worked on the Live Data team, responsible for processing live sports events across various matches and sports types. These events were critical for our betting products but also needed to be delivered globally to our clients with latencies as low as 500ms. My dedication and performance earned me the position of the software architect for this team. In this role, I worked on the transition of our backend applications to AWS Cloud and led a new team of software engineers in Warsaw to develop a modern frontend application using the latest web technologies."
       }
     ],
     [
       "GreenFox (Aug. 2021 - Present)",
       {
         FIRST: "First Senior Software Engineer",
-        LATER: "Later Software Responsible",
-        TEXT: 'At GreenFox I worked on the idea to make sex-sorting of fish a reality. I started my work when there was not much else than the idea yet. Together with only a few engineers we created different kinds of Software pieces that would later work together with a bunch of hardware (belts, motors, sensors, etc.) as a semi-automatic sex-sorting machine for fish ("Semi-automatic" meaning someone has to row up fish on a belt that will then be analyzed). I had the honor to get to work on all software pieces of the machine: Embedded Software (controlling hardware), Machine Learning | AI (Identify sex of fish based on ultrasound images, System Software | Desktop Application (to control the entire appliance - specifically the ultrasound system) and pieces of cloud software for the collection of AI training data and invoice processing. We already sold a few machines. Due to the increasing size of the company, I was chosen to be the main responsible for the overall Software department.'
+        LATER: "Later Software Department Lead",
+        TEXT: "At GreenFox, I embarked on the innovative project of developing a semi-automatic sex-sorting machine for fish, starting from just an idea. Working with a small team, we created software components that integrated seamlessly with hardware elements like belts, motors, and sensors. I had the opportunity to work on all aspects of the machine's software, including embedded software for hardware control, machine learning for sex identification based on ultrasound images, system software (like the ultrasound interface) and desktop application for managing the entire system, and cloud software for AI training data collection and invoice processing. Our hard work led to the successful sale of several machines. As the company grew, I was appointed as the lead responsible for the overall software department, guiding its continued growth and technological advancement."
       }
     ]
   ]);
@@ -70,9 +68,9 @@
   ];
 
   const STORY = [
-    "As a little kid I was already interested in computers. When my father got himself a brand new Windows XP machine I got his Windows 98 machine. But before I was allowed to use it, he gave me a box of diskettes (it must have been around 50 diskettes) so I can delete everything and install Windows from scratch. It was a nightmare but also fun.",
-    "Fast forwarding to university I loved programming with other students and my favorite “subject” at university was a project in groups to actually create a minimal version of an online shop as a web application. This was one of the few things at university where we actually needed to get something to the final stage of product development otherwise we would fail the class. I also embraced all theoretical subjects as I understood that it may be crucial for solving future problems but I liked most getting products developed from 0 to 100 and the end product being of actual use to others.",
-    "With a lot of experience I acquired from my two recent full time jobs but also knowledge I gained myself due to self driven learning, I would like to go forward with my career by seeking for technical leadership positions but also be open for single projects to be hired for as a self driven contractor."
+    "From a young age, my fascination with computers was evident. When my father upgraded to a brand new Windows XP machine, I inherited his Windows 98 machine. However, before I could use it, he handed me a box of about 39 diskettes and instructed me to delete everything and install Windows from scratch. It was both a challenging and fun experience.",
+    "Fast forward to university, I discovered a passion for programming alongside fellow students. My favorite project involved collaborating in groups to create a minimal version of an online shop as a web application. This project was unique because it required us to deliver a fully functional product to pass the class. While I appreciated the theoretical subjects for their importance in problem-solving, I thrived most when taking a product from concept to completion and making it useful for others.",
+    "With the extensive experience gained from my recent full-time positions and the knowledge acquired through self-driven learning, I am now looking to advance my career. I am seeking technical leadership roles but am also open to individual projects as an independent contractor."
   ];
 
   let isMenuVisible = false;
