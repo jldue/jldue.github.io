@@ -152,20 +152,22 @@
   {/if}
 
   <main id="main" class="pt-20 mt-[-1rem] bg-gray-800 bg-[url(/circuit-board_dark.svg)] bg-center">
-    <img src="profile.jpg" alt="Profile" class="sm:hidden" />
-
     <div
       class="flex flex-col content-center justify-start p-6 sm:px-[10%] md:px-[15%] lg:px-[25%] gap-6"
     >
       <div
-        class="relative z-10 hidden sm:flex flex-col content-center justify-center self-center items-center w-[600px] h-[320px]"
+        class="relative z-10 flex flex-col content-center justify-center self-center items-center w-[360px] h-[192px] sm:w-[600px] sm:h-[320px]"
       >
-        <img src="cpu-frame.png" alt="CPU-Frame" width="600" class="absolute" />
         <img
-          src="profile.jpg"
+          src="cpu-frame.png"
+          alt="CPU-Frame"
+          width="600"
+          class="absolute w-[360px] sm:w-[600px]"
+        />
+        <img
+          src="profile.jpeg"
           alt="Profile"
-          width="300"
-          class="absolute border-2 border-gray-100 rounded-lg"
+          class="absolute border-2 border-gray-100 rounded-lg w-[180px] sm:w-[300px]"
         />
       </div>
 
@@ -175,9 +177,6 @@
         </a>
         <a href="https://www.upwork.com/freelancers/~01f0051e41f2b39820/" target="_blank">
           <img src="upwork.png" alt="Upwork" width="50" />
-        </a>
-        <a href="https://www.fiverr.com/jl_duee/" target="_blank">
-          <img src="fiverr.png" alt="Fiverr" width="50" />
         </a>
         <a href="https://github.com/jldue/" target="_blank">
           <img src="github.png" alt="GitHub" width="50" />
