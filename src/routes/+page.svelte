@@ -169,7 +169,7 @@
         />
       </div>
 
-      <div class="flex flex-row content-center self-center items-center justify-center gap-6">
+      <div class="z-10 flex flex-row content-center self-center items-center justify-center gap-6">
         <a href="https://www.linkedin.com/in/jean-luc-d%C3%BCe-82a324206/" target="_blank">
           <img src="linkedin.png" alt="LinkedIn" width="50" />
         </a>
