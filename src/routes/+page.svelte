@@ -170,7 +170,7 @@
       </div>
 
       <div class="z-10 flex flex-row content-center self-center items-center justify-center gap-6">
-        <a href="https://www.linkedin.com/in/jean-luc-d%C3%BCe-82a324206/" target="_blank">
+        <a href="https://www.linkedin.com/in/jldue/" target="_blank">
           <img src="linkedin.png" alt="LinkedIn" width="50" />
         </a>
         <a href="https://www.upwork.com/freelancers/~01f0051e41f2b39820/" target="_blank">
