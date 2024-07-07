@@ -1,1 +1,2 @@
-GitHub page for my profile. (https://jldue.github.io/)
+My Portfolio Website.
+https://jldue.github.io/
