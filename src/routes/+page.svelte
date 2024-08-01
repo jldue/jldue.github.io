@@ -6,7 +6,7 @@
   const EMAIL_ADDRESS = "jl.duee@googlemail.com";
 
   const GOALS = [
-    "Secure a technical leadership position within an organization to drive impactful projects and deliver measurable results.",
+    "Contribute in a technical leadership position within an organization to drive impactful projects and deliver measurable results.",
     "Offer my expertise as a contractor to develop high-quality apps, systems, and websites for individuals with innovative business ideas or companies seeking digital transformation."
   ];
 
@@ -46,17 +46,17 @@
 
   const EMPLOYMENTS = new Map([
     [
-      "GreenFox Solutions (Aug. 2021 - Present)",
+      "GreenFox Marine (Aug. 2021 - Present)",
       {
-        FIRST: "First: Senior System Developer",
-        LATER: "Later: Software Department Lead",
-        TEXT: "At GreenFox, I embarked on the innovative project of developing a semi-automatic sex-sorting machine for fish, starting from just an idea. Working with a small team, we created software components that integrated seamlessly with hardware elements like belts, motors, and sensors. I had the opportunity to work on all aspects of the machine's software, including embedded software for hardware control, machine learning for sex identification based on ultrasound images, system software (like the ultrasound interface) and desktop application for managing the entire system, and cloud software for AI training data collection and invoice processing. Our hard work led to the successful sale of several machines. As the company grew, I was appointed as the lead responsible for the overall software department, guiding its continued growth and technological advancement."
+        FIRST: "Senior System Developer (Aug. 2021 - Jul. 2024)",
+        LATER: "Chief Technology Officer (Aug. 2024 - Present)",
+        TEXT: "At GreenFox Marine, I embarked on the innovative project of developing a semi-automatic sex-sorting machine for fish, starting from just an idea. Working with a small team, we created software components that integrated seamlessly with hardware elements like belts, motors, and sensors. I had the opportunity to work on all aspects of the machine's software, including embedded software for hardware control, machine learning for sex identification based on ultrasound images, system software (like the ultrasound interface) and desktop application for managing the entire system, and cloud software for AI training data collection and invoice processing. Our hard work led to the successful sale of several machines. As the company grew, I was appointed as the Chief Technology Officer of GreenFox Marine, guiding its continued growth and technological advancement."
       }
     ],
     [
       "Sportradar (Nov. 2016 - Aug. 2021)",
       {
-        FIRST: "Software Developer (Nov. 2016 - Aug. 2019)",
+        FIRST: "Software Developer (Nov. 2016 - Jul. 2019)",
         LATER: "Software Architect (Aug. 2019 - Aug. 2021)",
         TEXT: "I worked on the Live Data team, responsible for processing live sports events across various matches and sports types. These events were critical for our betting products but also needed to be delivered globally to our clients with latencies as low as 500ms. My dedication and performance earned me the position of the software architect for this team. In this role, I worked on the transition of our backend applications to AWS Cloud and led a new team of software engineers in Warsaw to develop a modern frontend application using the latest web technologies."
       }
